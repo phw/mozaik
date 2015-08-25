@@ -32,16 +32,16 @@
     <!-- RSS -->
     <link rel="alternative" href="/mozaik/atom.xml" title="Mozaïk" type="application/atom+xml">
     <!-- Open Graph -->
-    <meta name="description">
+    <meta name="description" content="Widgets are the building blocks of a Mozaïk dashboard, a widget is in fact a react component which often communicates with an API. Mozaïk comes with no widget, they are installed through extensions, s">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Configuration">
 <meta property="og:url" content="http://plouc.github.io/mozaik/docs/widgets.html">
 <meta property="og:site_name" content="Mozaïk">
-<meta property="og:description">
-<meta property="og:updated_time" content="2015-08-16T07:34:45.000Z">
+<meta property="og:description" content="Widgets are the building blocks of a Mozaïk dashboard, a widget is in fact a react component which often communicates with an API. Mozaïk comes with no widget, they are installed through extensions, s">
+<meta property="og:updated_time" content="2015-08-25T06:42:55.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Configuration">
-<meta name="twitter:description">
+<meta name="twitter:description" content="Widgets are the building blocks of a Mozaïk dashboard, a widget is in fact a react component which often communicates with an API. Mozaïk comes with no widget, they are installed through extensions, s">
     <!-- Google Analytics -->
     
 <script>
@@ -96,10 +96,43 @@
             <article class="article-container" itemscope itemtype="http://schema.org/Article">
                 <div class="article">
                     <div class="article-content" itemprop="articleBody" data-swiftype-index="true">
-                        
+                        <p>Widgets are the building blocks of a Mozaïk dashboard, a widget is in fact a react component which often communicates with an API. Mozaïk comes with no widget, they are installed through extensions, see <a href="/mozaik/extensions">available extensions</a>.</p>
+<p>Widgets share some common properties which are all required:</p>
+<table>
+<thead>
+<tr>
+<th>key</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>type</strong></td>
+<td><em>the type of widget to instantiate</em></td>
+</tr>
+<tr>
+<td><strong>x</strong></td>
+<td><em>x position</em></td>
+</tr>
+<tr>
+<td><strong>y</strong></td>
+<td><em>y position</em></td>
+</tr>
+<tr>
+<td><strong>columns</strong></td>
+<td><em>width expressed in columns</em></td>
+</tr>
+<tr>
+<td><strong>rows</strong></td>
+<td><em>height expressed in rows</em></td>
+</tr>
+</tbody>
+</table>
+<p><em>for properties related to position/size see <a href="/mozaik/docs/grid-system.html">grid system</a>.</em></p>
+
                     </div>
                     <footer class="article-footer">
-                        <time class="article-footer-updated" datetime="2015-08-16T07:34:45.000Z" itemprop="dateModified">Last updated: 2015-08-16</time>
+                        <time class="article-footer-updated" datetime="2015-08-25T06:42:55.000Z" itemprop="dateModified">Last updated: 2015-08-25</time>
                         <a href="theme.html" class="article-footer-prev" title="Theme"><i class="fa fa-angle-left"></i><span>Theme</span></a>
                     </footer>
                     
