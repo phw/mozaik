@@ -135,6 +135,10 @@ body {
   position: relative;
   padding-top: 50px;
 }
+a {
+  color: #08aeec;
+  text-decoration: none;
+}
 .strata_out {
   width: 100%;
 }
