@@ -227,7 +227,7 @@ a {
   box-shadow: 0 1px 1px rgba(0,0,0,0.15);
 }
 .header_compact .header_logo {
-  background-image: url("/mozaik/mozaik-logo.png");
+  background-image: url("/mozaik-logo.png");
 }
 .header_compact .main-nav_link {
   color: #777;
@@ -250,7 +250,7 @@ a {
   text-indent: 101%;
   white-space: nowrap;
   overflow: hidden;
-  background-image: url("/mozaik/mozaik-logo-white.png");
+  background-image: url("/mozaik-logo-white.png");
   background-repeat: no-repeat;
   background-position: 0 10px;
   -webkit-background-size: contain;
